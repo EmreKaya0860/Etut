@@ -7,7 +7,7 @@ namespace Odev2.Controllers
     public class IletisimController : Controller
     {
         [HttpPost]
-        public IActionResult Index(Bilgiler[] bilgi)
+        public IActionResult Index(Bilgiler bilgi)
         {
 
             //ViewBag.Name = collections["_name"];

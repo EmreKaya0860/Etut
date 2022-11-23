@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emre\\Desktop\\Odev2\\Odev2\\Odev2.csproj": {}
+    "C:\\Users\\Emre\\Desktop\\SMAODEV\\Odev2\\Odev2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emre\\Desktop\\Odev2\\Odev2\\Odev2.csproj": {
+    "C:\\Users\\Emre\\Desktop\\SMAODEV\\Odev2\\Odev2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\Odev2\\Odev2\\Odev2.csproj",
+        "projectUniqueName": "C:\\Users\\Emre\\Desktop\\SMAODEV\\Odev2\\Odev2.csproj",
         "projectName": "Odev2",
-        "projectPath": "C:\\Users\\Emre\\Desktop\\Odev2\\Odev2\\Odev2.csproj",
+        "projectPath": "C:\\Users\\Emre\\Desktop\\SMAODEV\\Odev2\\Odev2.csproj",
         "packagesPath": "C:\\Users\\Emre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emre\\Desktop\\Odev2\\Odev2\\obj\\",
+        "outputPath": "C:\\Users\\Emre\\Desktop\\SMAODEV\\Odev2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Emre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.10, )"
